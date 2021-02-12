@@ -1,0 +1,40 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* stop Reset */
+
+/* Common */
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+
+    /* test */
+    border: 1px solid black;
+}
+
+header, header .title{
+    margin-bottom: 20px;
+}
+
+/* stop Common */
+
+/* Header */
+header .title{
+    height: 100px;
+    width: 100%;
+    background-color:#e579e6;
+}
+
+header .content{
+    height: 500px;
+    width: 100%;
+    background-color: #e1d67a;
+}
+/* stop Header */
